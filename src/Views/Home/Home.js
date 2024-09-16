@@ -21,7 +21,7 @@ function Home() {
                 Currently I am pursuing my Bachelors in Computer Engineering from SVIT, Nashik.
             </p>
             <div> 
-            <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200 from-blue-500'>Portfolio <span
+            <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200'>Portfolio <span
             className='mx-1'><MdOutlineKeyboardArrowRight/></span></button>
            </div>
         </div>
