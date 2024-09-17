@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Contact() {
+
   return (
     <div
-    name="experience"
+    name="contact"
     className='text-white h-screen w-full bg-gradient-to-b from-black via-black to-gray-700 md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
@@ -35,7 +36,6 @@ function Contact() {
      rows='6'
      className='my-1 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
 >
-
      </textarea>
 
 <button type='submit' className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200'>Let's Talk </button>
