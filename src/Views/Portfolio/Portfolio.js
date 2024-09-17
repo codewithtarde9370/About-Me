@@ -1,7 +1,7 @@
 import React from 'react'
-import QuickLinks from './../../Assets/ftb-link.png'
-import ExpenseTracker from './../../Assets/et.png'
-import AddTasks from './../../Assets/addtask.png'
+import QuickLinks from './../../Assets/portfolio/ftb-link.png'
+import ExpenseTracker from './../../Assets/portfolio/et.png'
+import AddTasks from './../../Assets/portfolio/addtask.png'
 
 
 function Portfolio() {
