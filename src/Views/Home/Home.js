@@ -14,7 +14,7 @@ function Home() {
 
 {/* <h1 className='px-8 pt-28 absolute text-4xl'>Welcome to my Portfolio</h1> */}
 
-    <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
+    <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row sm:min-h-full'>
         <div>
             <h2 className='text-4xl sm:text-7xl font-bold from-white'>I'm a Full-Stack Developer</h2>
             <p className='to-gray-500 py-4 max-w-md'>
