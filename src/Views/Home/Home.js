@@ -10,7 +10,7 @@ function Home() {
   return (
 <>
 <Navbar/>
-<div name="home" className='text-white h-screen w-full bg-gradient-to-b from-black via-black to-gray-700'>
+<div name="home" className='text-white h-screen w-full bg-gradient-to-b from-black via-black to-gray-700 '>
 
 {/* <h1 className='px-8 pt-28 absolute text-4xl'>Welcome to my Portfolio</h1> */}
 
@@ -22,7 +22,7 @@ function Home() {
                 Currently I am pursuing my Bachelors in Computer Engineering from SVIT, Nashik.
             </p>
             <div> 
-            <Link className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200'>Portfolio <span
+            <Link to='portfolio' className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200'>Portfolio <span
             className='mx-1'><MdOutlineKeyboardArrowRight/></span></Link>
            </div>
         </div>
