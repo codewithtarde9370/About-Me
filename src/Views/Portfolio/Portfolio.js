@@ -44,15 +44,21 @@ function Portfolio() {
                 return(
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 
-                    <img 
-                    src={src}
-                    className='ronded-md duration-200 hover:scale-105'
-                    alt='work glimpse'/>
+<img 
+  src={src}
+  className="rounded-md duration-200 hover:scale-105"
+  alt="work glimpse"
+/>
 
-                    <div className='flex justify-center items-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={demo} target='_blank'>Demo</a> </button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code} target='_blank'>Code</a></button>
-                    </div>
+<div className="flex justify-center items-center">
+  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+    <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
+  </button>
+  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+    <a href={code} target="_blank" rel="noopener noreferrer">Code</a>
+  </button>
+</div>
+
 
                 </div>
                 )
