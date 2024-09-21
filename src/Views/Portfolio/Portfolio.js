@@ -1,6 +1,6 @@
 import React from 'react'
 import QuickLinks from './../../Assets/portfolio/ftb-link.png'
-import ExpenseTracker from './../../Assets/portfolio/et.png'
+import ExpenseTracker from './../../Assets/portfolio/blog.png'
 import AddTasks from './../../Assets/portfolio/addtask.png'
 
 
