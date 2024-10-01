@@ -54,7 +54,7 @@ function Footer() {
       Developed by <span className='text-blue-500'>Tejasvi Tarde</span>
     </h1>
     
-    <ul className='flex flex-col sm:flex-row sm:space-x-4 text-center'>
+    <ul className='flex flex-row sm:flex-row sm:space-x-4 text-center'>
       {links.map(({ id, child, style, href, download }) => (
         <li key={id} className='flex justify-between items-center w-full h-14 px-4 hover:rounded-md duration-300'>
           <a 
