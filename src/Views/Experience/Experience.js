@@ -9,6 +9,8 @@ import Git from './../../Assets/experience/git.png'
 import Bootstrap from './../../Assets/experience/bootstrap.png'
 import Tailwind from './../../Assets/experience/tailwind.png'
 import react from './../../Assets/experience/react.png'
+import SQL from './../../Assets/experience/sql.png'
+import Oracle from './../../Assets/experience/oracle.png'
 
 function Experience() {
     const tools= [
@@ -71,6 +73,18 @@ function Experience() {
             src:Tailwind,
             title:'Tailwind CSS',
             style:'shadow-sky-400'
+        },
+         {
+            id:11,
+            src:SQL,
+            title:'SQL',
+            style:'shadow-sky-400'
+        },
+         {
+            id:12,
+            src:Oracle,
+            title:'Oracle Apex',
+            style:'shadow-red-400'
         },
     ]
   return (
