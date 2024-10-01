@@ -18,7 +18,7 @@ function Home() {
         <div>
             <h2 className='text-4xl sm:text-7xl font-bold from-white'>I'm a Full-Stack Developer</h2>
             <p className='to-gray-500 py-4 max-w-md'>
-            Hi, I'm Tejasvi Tarde, a Full-Stack Developer with six months of experience, specializing in web development using technologies like React.js, Node.js, Express.js and MongoDB. I’m currently pursuing a Bachelor of Computer Engineering and actively learning Oracle APEX and SQL with a focus on Oracle databases. This training complements my full-stack skills and aligns with my goal of building a career in Oracle-based enterprise applications. I’m passionate about continuous learning and excited to apply my technical knowledge to create scalable, secure business solutions.
+            Hi, I'm Tejasvi Tarde, a Full-Stack Developer with six months of experience, specializing in web development using MERN stack and actively learning Oracle APEX and SQL with a focus on Oracle databases. This training complements my full-stack skills and aligns with my goal of building a career in Oracle-based enterprise applications. I’m passionate about continuous learning and excited to apply my technical knowledge to create scalable, secure business solutions.
             </p>
             <div> 
             <Link to='portfolio' className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-950 cursor-pointer hover:scale-105 duration-200'>Portfolio <span
