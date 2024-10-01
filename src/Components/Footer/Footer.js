@@ -9,7 +9,7 @@ function Footer() {
             id:1,
             child: (
                 <>
-                LinkedIn<FaLinkedin size={30}/>
+                <FaLinkedin size={30}/>
                 </>
             ),
             href:'https://www.linkedin.com/in/tejasvitarde',
@@ -19,7 +19,7 @@ function Footer() {
             id:2,
             child: (
                 <>
-                GitHub<FaGithub size={30}/>
+                <FaGithub size={30}/>
                 </>
             ),
             href:'https://github.com/codewithtarde9370/',
@@ -29,7 +29,7 @@ function Footer() {
             id:3,
             child: (
                 <>
-                Email<MdOutlineMail size={30}/>
+                <MdOutlineMail size={30}/>
                 </>
             ),
             href:'mailto:tejasvitarde36@gmail.com',
@@ -39,7 +39,7 @@ function Footer() {
             id:4,
             child: (
                 <>
-                Resume<BsFillPersonLinesFill size={30}/>
+                <BsFillPersonLinesFill size={30}/>
                 </>
             ),
             href:'/resume.pdf',
